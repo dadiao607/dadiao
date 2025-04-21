@@ -1,0 +1,89 @@
+/* 全局样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  color: #333;
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f6f6f6;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c0c4cc;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #909399;
+}
+
+/* 通用样式类 */
+.page-container {
+  padding: 20px;
+  height: 100%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-primary {
+  color: #409eff;
+}
+
+.text-success {
+  color: #67c23a;
+}
+
+.text-warning {
+  color: #e6a23c;
+}
+
+.text-danger {
+  color: #f56c6c;
+}
+
+.text-info {
+  color: #909399;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.m-l-10 {
+  margin-left: 10px;
+}
+
+.m-r-10 {
+  margin-right: 10px;
+} 
